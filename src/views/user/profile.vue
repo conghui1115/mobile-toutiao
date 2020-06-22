@@ -1,5 +1,5 @@
 <template>
-  <div>公用布局</div>
+  <div>编辑资料</div>
 </template>
 
 <script>
