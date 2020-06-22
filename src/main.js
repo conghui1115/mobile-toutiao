@@ -5,6 +5,8 @@ import store from './store'
 // 全部导入 vant
 import Vant from 'vant'
 import 'vant/lib/index.css'
+// 全局引入自定义样式 覆盖vant的样式
+import '@/styles/index.less'
 
 // 屏幕变化，font-size变化，修改rem 基准值的js插件 amfe-flexible
 import 'amfe-flexible'
