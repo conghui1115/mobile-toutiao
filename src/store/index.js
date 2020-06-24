@@ -4,6 +4,7 @@ import * as auth from '@/utils/auth'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
+  // token的类型对象 {token :'',refresh_token:''}
   state: {
     // 专门来放置需要共享的状态
     user: auth.getUser()// token 对象  做持久化 如果缓存中有 token 读取缓存

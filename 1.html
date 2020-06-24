@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var Factroy =function (){
+      this.a =1,
+      this.b =2,
+      this.c={
+        a:2,
+        b:()=>this.a
+      }
+    }
+    console.log(new Factroy().c.b());
+    console.log(new Factroy().c);
+    
+  </script>
+</body>
+</html>
