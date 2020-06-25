@@ -6,6 +6,7 @@ import '@/permission'
 // 全部导入 vant
 import Vant from 'vant'
 import 'vant/lib/index.css'
+import 'vant/lib/index.less'
 // 全局引入自定义样式 覆盖vant的样式
 import '@/styles/index.less'
 
